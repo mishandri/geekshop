@@ -132,3 +132,7 @@ STATICFILES_DIRS = (
 )
 
 LANGUAGE_CODE = 'ru-RU'
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
